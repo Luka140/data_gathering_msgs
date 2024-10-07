@@ -12,6 +12,7 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 find_package(rosidl_default_generators REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -26,12 +27,14 @@ if(BUILD_TESTING)
 endif()
 
 set(srv_files
-  "srv/TestRequest.srv"  
+  "srv/TestRequest.srv"
+  "srv/RequestPCL.srv"
+  "srv/RequestPCLVolumeDiff.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${srv_files}
-  # DEPENDENCIES sensor_msgs # Add packages that above messages depend on
+  DEPENDENCIES sensor_msgs # Add packages that above messages depend on
   # DEPENDENCIES geometry_msgs
 )
 
