@@ -32,8 +32,13 @@ set(srv_files
   "srv/RequestPCLVolumeDiff.srv"
 )
 
+set (msg_files
+  "msg/BeltWearHistory.msg"
+)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${srv_files}
+  ${msg_files}
   DEPENDENCIES sensor_msgs # Add packages that above messages depend on
   # DEPENDENCIES geometry_msgs
 )

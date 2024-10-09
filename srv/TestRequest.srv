@@ -6,3 +6,4 @@ float32 force
 float32 rpm
 float32 contact_time 
 bool success
+string message         
