@@ -4,3 +4,5 @@ float32 plate_thickness
 ---
 sensor_msgs/PointCloud2 difference_pointcloud
 float32 volume_difference
+bool success
+string message
