@@ -1,0 +1,2 @@
+float32 belt_width
+float32 plate_thickness
