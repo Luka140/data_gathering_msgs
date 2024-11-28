@@ -27,9 +27,11 @@ if(BUILD_TESTING)
 endif()
 
 set(srv_files
-  "srv/TestRequest.srv"
+  "srv/StartGrindTest.srv"
   "srv/RequestPCL.srv"
   "srv/RequestPCLVolumeDiff.srv"
+  "srv/StartGrinder.srv"
+  "srv/StopGrinder.srv"
 )
 
 set (msg_files

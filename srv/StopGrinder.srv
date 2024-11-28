@@ -1,0 +1,8 @@
+---
+# Response to see whether the service call was successful
+bool success
+string message 
+
+# Response to see whether any issues occured during the grinding duration 
+bool grind_successful
+string grind_message 

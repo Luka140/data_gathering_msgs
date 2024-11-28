@@ -1,0 +1,9 @@
+# Set timeout after which the grinder will turn off automatically
+float32 TIMEOUT_DISABLED = 0.0
+float32 timeout_duration
+
+# RPM to run the grinder at 
+float32 rpm 
+---
+string message
+bool success 
