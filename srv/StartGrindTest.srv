@@ -5,4 +5,4 @@ int32 passes
 float32 tcp_speed
 ---
 bool success
-bool message
+string message
