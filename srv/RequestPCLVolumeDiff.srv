@@ -2,6 +2,7 @@ sensor_msgs/PointCloud2 initial_pointcloud
 sensor_msgs/PointCloud2 final_pointcloud
 float32 plate_thickness
 float32 belt_width
+float32 pass_length
 ---
 sensor_msgs/PointCloud2 difference_pointcloud
 float32 volume_difference
