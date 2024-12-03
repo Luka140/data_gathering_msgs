@@ -37,6 +37,7 @@ set(srv_files
 set (msg_files
   "msg/BeltWearHistory.msg"
   "msg/GrindArea.msg"
+  "msg/GrindSettings.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
