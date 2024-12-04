@@ -7,3 +7,6 @@ float32 contact_time
 ---
 bool success
 string message
+
+# Contains a copy of the request settings
+data_gathering_msgs/GrindSettings grind_settings
