@@ -6,5 +6,6 @@ float32 pass_length
 ---
 sensor_msgs/PointCloud2 difference_pointcloud
 float32 volume_difference
+float32 volume_difference_mid
 bool success
 string message
